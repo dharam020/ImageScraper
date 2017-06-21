@@ -17,14 +17,14 @@ else:
 setup(name='ImageScraper',
       version='2.0.7',
       install_requires= requirement_list,
-      author='Anantha Natarajan S',
-      author_email='sananthanatarajan12@gmail.com',
+      author='Dharmendra Singh',
+      author_email='020dharam@gmail.com',
       packages=['image_scraper'],
       entry_points={
           'console_scripts': ['image-scraper=image_scraper:main'],
       },
       test_suite='tests',
-      url='https://github.com/sananth12/ImageScraper/',
+      url='https://github.com/dharam020/ImageScraper/',
       description='A simple image scraper to download all images from a given url',
       classifiers=[
           'Operating System :: POSIX',
